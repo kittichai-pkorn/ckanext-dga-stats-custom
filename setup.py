@@ -21,6 +21,6 @@ setup(
 	entry_points=\
 	"""
         [ckan.plugins]
-        dga_stats=ckanext.dga_stats.plugin:StatsPlugin
+        dga_stats_custom=ckanext.dga_stats.plugin:StatsPlugin
 	""",
 )
