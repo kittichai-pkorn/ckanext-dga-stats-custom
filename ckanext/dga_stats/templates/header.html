@@ -1,0 +1,11 @@
+{% ckan_extends %}
+
+{% block header_account_logged %}
+<li>
+  <a href="/site_stats" title="{{ _('Site Statistics') }}">
+    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+    <span class="text">{{ _('Site Statistics') }}</span>
+  </a>
+</li>
+  {{ super() }}
+{% endblock %}
